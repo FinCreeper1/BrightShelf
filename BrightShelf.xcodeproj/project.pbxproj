@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A68CA3F2CFFA3000017FFAA /* SidebarSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68CA3E2CFFA3000017FFAA /* SidebarSettingsView.swift */; };
+		6A68CA432CFFA6A90017FFAA /* SidebarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68CA422CFFA6A90017FFAA /* SidebarManager.swift */; };
+		6A88D57E2CFDBF4B008A70E0 /* FileMetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88D57D2CFDBF4B008A70E0 /* FileMetadataView.swift */; };
+		6A88D5802CFDC252008A70E0 /* FullscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88D57F2CFDC252008A70E0 /* FullscreenView.swift */; };
+		6AAB9B312CF7683800C75BA6 /* FormatBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB9B2E2CF7683800C75BA6 /* FormatBuilderView.swift */; };
+		6AAB9B322CF7683800C75BA6 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB9B2F2CF7683800C75BA6 /* AboutView.swift */; };
+		6AAB9B332CF7683800C75BA6 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB9B302CF7683800C75BA6 /* GeneralSettingsView.swift */; };
+		6AF43B0C2CF539A200C04265 /* BrightShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43AFE2CF539A200C04265 /* BrightShelfApp.swift */; };
+		6AF43B0D2CF539A200C04265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF43AFF2CF539A200C04265 /* Assets.xcassets */; };
+		6AF43B0E2CF539A200C04265 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF43B002CF539A200C04265 /* Preview Assets.xcassets */; };
+		6AF43B102CF539A200C04265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43B032CF539A200C04265 /* ContentView.swift */; };
+		6AF43B112CF539A200C04265 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43B042CF539A200C04265 /* MainView.swift */; };
+		6AF43B122CF539A200C04265 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43B052CF539A200C04265 /* SettingsView.swift */; };
+		6AF43B142CF539A200C04265 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43B082CF539A200C04265 /* FileManager.swift */; };
+		6AF43B152CF539A200C04265 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43B092CF539A200C04265 /* SettingsManager.swift */; };
+		6AF43B172CF53EFC00C04265 /* FilePreviewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF43B162CF53EFC00C04265 /* FilePreviewGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AB8A7EE2CF512DC007345FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB8A7D42CF512DB007345FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB8A7DB2CF512DB007345FC;
+			remoteInfo = BrightShelf;
+		};
+		6AB8A7F82CF512DC007345FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB8A7D42CF512DB007345FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB8A7DB2CF512DB007345FC;
+			remoteInfo = BrightShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A68CA3E2CFFA3000017FFAA /* SidebarSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarSettingsView.swift; sourceTree = "<group>"; };
+		6A68CA422CFFA6A90017FFAA /* SidebarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SidebarManager.swift; path = BrightShelf/Managers/SidebarManager.swift; sourceTree = SOURCE_ROOT; };
+		6A88D57D2CFDBF4B008A70E0 /* FileMetadataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileMetadataView.swift; sourceTree = "<group>"; };
+		6A88D57F2CFDC252008A70E0 /* FullscreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullscreenView.swift; sourceTree = "<group>"; };
+		6AAB9B2E2CF7683800C75BA6 /* FormatBuilderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatBuilderView.swift; sourceTree = "<group>"; };
+		6AAB9B2F2CF7683800C75BA6 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		6AAB9B302CF7683800C75BA6 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		6AB8A7DC2CF512DB007345FC /* BrightShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB8A7ED2CF512DC007345FC /* BrightShelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightShelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB8A7F72CF512DC007345FC /* BrightShelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightShelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF43AFE2CF539A200C04265 /* BrightShelfApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrightShelfApp.swift; path = BrightShelf/BrightShelfApp.swift; sourceTree = "<group>"; };
+		6AF43AFF2CF539A200C04265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BrightShelf/Assets.xcassets; sourceTree = "<group>"; };
+		6AF43B002CF539A200C04265 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AF43B032CF539A200C04265 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AF43B042CF539A200C04265 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6AF43B052CF539A200C04265 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6AF43B082CF539A200C04265 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		6AF43B092CF539A200C04265 /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		6AF43B0B2CF539A200C04265 /* BrightShelf.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = BrightShelf.entitlements; path = BrightShelf/BrightShelf.entitlements; sourceTree = "<group>"; };
+		6AF43B162CF53EFC00C04265 /* FilePreviewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePreviewGenerator.swift; sourceTree = SOURCE_ROOT; };
+		6AF43B182CF5458E00C04265 /* BrightShelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BrightShelf.entitlements; path = BrightShelf/BrightShelf.entitlements; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB8A7D92CF512DB007345FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB8A7EA2CF512DC007345FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB8A7F42CF512DC007345FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AB8A7D32CF512DB007345FC = {
+			isa = PBXGroup;
+			children = (
+				6AF43AFF2CF539A200C04265 /* Assets.xcassets */,
+				6AF43B0B2CF539A200C04265 /* BrightShelf.entitlements */,
+				6AF43AFE2CF539A200C04265 /* BrightShelfApp.swift */,
+				6AF43B062CF539A200C04265 /* Views */,
+				6AF43B0A2CF539A200C04265 /* Managers */,
+				6AF43B012CF539A200C04265 /* Preview Content */,
+				6AB8A7DD2CF512DB007345FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB8A7DD2CF512DB007345FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB8A7DC2CF512DB007345FC /* BrightShelf.app */,
+				6AB8A7ED2CF512DC007345FC /* BrightShelfTests.xctest */,
+				6AB8A7F72CF512DC007345FC /* BrightShelfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF43B012CF539A200C04265 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AF43B182CF5458E00C04265 /* BrightShelf.entitlements */,
+				6AF43B002CF539A200C04265 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "BrightShelf/Preview Content";
+			sourceTree = "<group>";
+		};
+		6AF43B062CF539A200C04265 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AF43B032CF539A200C04265 /* ContentView.swift */,
+				6AF43B042CF539A200C04265 /* MainView.swift */,
+				6A88D57F2CFDC252008A70E0 /* FullscreenView.swift */,
+				6A88D57D2CFDBF4B008A70E0 /* FileMetadataView.swift */,
+				6AF43B052CF539A200C04265 /* SettingsView.swift */,
+				6AAB9B302CF7683800C75BA6 /* GeneralSettingsView.swift */,
+				6AAB9B2E2CF7683800C75BA6 /* FormatBuilderView.swift */,
+				6A68CA3E2CFFA3000017FFAA /* SidebarSettingsView.swift */,
+				6AAB9B2F2CF7683800C75BA6 /* AboutView.swift */,
+			);
+			name = Views;
+			path = BrightShelf/Views;
+			sourceTree = "<group>";
+		};
+		6AF43B0A2CF539A200C04265 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6AF43B162CF53EFC00C04265 /* FilePreviewGenerator.swift */,
+				6AF43B082CF539A200C04265 /* FileManager.swift */,
+				6AF43B092CF539A200C04265 /* SettingsManager.swift */,
+				6A68CA422CFFA6A90017FFAA /* SidebarManager.swift */,
+			);
+			name = Managers;
+			path = BrightShelf/Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB8A7DB2CF512DB007345FC /* BrightShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB8A8012CF512DD007345FC /* Build configuration list for PBXNativeTarget "BrightShelf" */;
+			buildPhases = (
+				6AB8A7D82CF512DB007345FC /* Sources */,
+				6AB8A7D92CF512DB007345FC /* Frameworks */,
+				6AB8A7DA2CF512DB007345FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrightShelf;
+			productName = BrightShelf;
+			productReference = 6AB8A7DC2CF512DB007345FC /* BrightShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AB8A7EC2CF512DC007345FC /* BrightShelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB8A8042CF512DD007345FC /* Build configuration list for PBXNativeTarget "BrightShelfTests" */;
+			buildPhases = (
+				6AB8A7E92CF512DC007345FC /* Sources */,
+				6AB8A7EA2CF512DC007345FC /* Frameworks */,
+				6AB8A7EB2CF512DC007345FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB8A7EF2CF512DC007345FC /* PBXTargetDependency */,
+			);
+			name = BrightShelfTests;
+			productName = BrightShelfTests;
+			productReference = 6AB8A7ED2CF512DC007345FC /* BrightShelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AB8A7F62CF512DC007345FC /* BrightShelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB8A8072CF512DD007345FC /* Build configuration list for PBXNativeTarget "BrightShelfUITests" */;
+			buildPhases = (
+				6AB8A7F32CF512DC007345FC /* Sources */,
+				6AB8A7F42CF512DC007345FC /* Frameworks */,
+				6AB8A7F52CF512DC007345FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB8A7F92CF512DC007345FC /* PBXTargetDependency */,
+			);
+			name = BrightShelfUITests;
+			productName = BrightShelfUITests;
+			productReference = 6AB8A7F72CF512DC007345FC /* BrightShelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB8A7D42CF512DB007345FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6AB8A7DB2CF512DB007345FC = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					6AB8A7EC2CF512DC007345FC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AB8A7DB2CF512DB007345FC;
+					};
+					6AB8A7F62CF512DC007345FC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AB8A7DB2CF512DB007345FC;
+					};
+				};
+			};
+			buildConfigurationList = 6AB8A7D72CF512DB007345FC /* Build configuration list for PBXProject "BrightShelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AB8A7D32CF512DB007345FC;
+			productRefGroup = 6AB8A7DD2CF512DB007345FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB8A7DB2CF512DB007345FC /* BrightShelf */,
+				6AB8A7EC2CF512DC007345FC /* BrightShelfTests */,
+				6AB8A7F62CF512DC007345FC /* BrightShelfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB8A7DA2CF512DB007345FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF43B0E2CF539A200C04265 /* Preview Assets.xcassets in Resources */,
+				6AF43B0D2CF539A200C04265 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB8A7EB2CF512DC007345FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB8A7F52CF512DC007345FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB8A7D82CF512DB007345FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF43B122CF539A200C04265 /* SettingsView.swift in Sources */,
+				6A88D5802CFDC252008A70E0 /* FullscreenView.swift in Sources */,
+				6A68CA432CFFA6A90017FFAA /* SidebarManager.swift in Sources */,
+				6AF43B0C2CF539A200C04265 /* BrightShelfApp.swift in Sources */,
+				6AF43B172CF53EFC00C04265 /* FilePreviewGenerator.swift in Sources */,
+				6AF43B142CF539A200C04265 /* FileManager.swift in Sources */,
+				6AAB9B322CF7683800C75BA6 /* AboutView.swift in Sources */,
+				6AF43B152CF539A200C04265 /* SettingsManager.swift in Sources */,
+				6AAB9B332CF7683800C75BA6 /* GeneralSettingsView.swift in Sources */,
+				6AAB9B312CF7683800C75BA6 /* FormatBuilderView.swift in Sources */,
+				6AF43B112CF539A200C04265 /* MainView.swift in Sources */,
+				6A88D57E2CFDBF4B008A70E0 /* FileMetadataView.swift in Sources */,
+				6A68CA3F2CFFA3000017FFAA /* SidebarSettingsView.swift in Sources */,
+				6AF43B102CF539A200C04265 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB8A7E92CF512DC007345FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB8A7F32CF512DC007345FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB8A7EF2CF512DC007345FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB8A7DB2CF512DB007345FC /* BrightShelf */;
+			targetProxy = 6AB8A7EE2CF512DC007345FC /* PBXContainerItemProxy */;
+		};
+		6AB8A7F92CF512DC007345FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB8A7DB2CF512DB007345FC /* BrightShelf */;
+			targetProxy = 6AB8A7F82CF512DC007345FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AB8A7FF2CF512DC007345FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AB8A8002CF512DC007345FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6AB8A8022CF512DD007345FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BrightShelf/BrightShelf.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightShelf/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DDB7K3YK8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "linus-fin.BrightShelf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AB8A8032CF512DD007345FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BrightShelf/BrightShelf.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightShelf/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DDB7K3YK8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "linus-fin.BrightShelf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6AB8A8052CF512DD007345FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6DDB7K3YK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "linus-fin.BrightShelfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightShelf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrightShelf";
+			};
+			name = Debug;
+		};
+		6AB8A8062CF512DD007345FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6DDB7K3YK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "linus-fin.BrightShelfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightShelf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrightShelf";
+			};
+			name = Release;
+		};
+		6AB8A8082CF512DD007345FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6DDB7K3YK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "linus-fin.BrightShelfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BrightShelf;
+			};
+			name = Debug;
+		};
+		6AB8A8092CF512DD007345FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6DDB7K3YK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "linus-fin.BrightShelfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BrightShelf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB8A7D72CF512DB007345FC /* Build configuration list for PBXProject "BrightShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB8A7FF2CF512DC007345FC /* Debug */,
+				6AB8A8002CF512DC007345FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB8A8012CF512DD007345FC /* Build configuration list for PBXNativeTarget "BrightShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB8A8022CF512DD007345FC /* Debug */,
+				6AB8A8032CF512DD007345FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB8A8042CF512DD007345FC /* Build configuration list for PBXNativeTarget "BrightShelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB8A8052CF512DD007345FC /* Debug */,
+				6AB8A8062CF512DD007345FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB8A8072CF512DD007345FC /* Build configuration list for PBXNativeTarget "BrightShelfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB8A8082CF512DD007345FC /* Debug */,
+				6AB8A8092CF512DD007345FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB8A7D42CF512DB007345FC /* Project object */;
+}
