@@ -32,6 +32,14 @@ BrightShelf ist eine Anwendung, die entwickelt wurde, um deine Bilder zu sortier
 *   Passe die Einstellungen über das Zahnrad-Symbol in der Symbolleiste oder das Tastaturkürzel `⌘ ,` an, um BrightShelf an deine Bedürfnisse anzupassen.
 *   Verwende die verschiedenen Ansichts- und Sortieroptionen, um deine Bilder optimal darzustellen und zu organisieren.
 
+## Sicherheit
+
+Die Anwendung wurde mit Fokus auf Datenschutz entwickelt und sammelt keine persönlichen Daten. Um zusätzliche Transparenz hinsichtlich der Sicherheit der bereitgestellten Anwendungsdatei zu bieten, können Sie den folgenden VirusTotal-Scan der neuesten Release-Version einsehen:
+
+[VirusTotal Scan für BrightShelf.zip (v1.5.3)](https://www.virustotal.com/gui/file/75c91a1b482adc37864d7a74579d3f4ffd72e96eb6d81b574d81149c0a8eb024/detection)
+
+Es wird empfohlen, Downloads immer nur von der offiziellen [Release-Seite](https://github.com/FinCreeper1/BrightShelf/releases) zu beziehen.
+
 ## Mitwirken
 
 Fehlerberichte und Verbesserungsvorschläge sind willkommen! Bitte erstelle ein [Issue im GitHub Repository](https://github.com/FinCreeper1/BrightShelf/issues/new/choose).
