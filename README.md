@@ -2,7 +2,7 @@
 
 BrightShelf ist eine Anwendung, die entwickelt wurde, um deine Bilder zu sortieren und zu verwalten. Sie ist eine kostenlose und datenschutzfreundliche Alternative zu Adobe Bridge.
 
-<a href="https://github.com/FinCreeper1/BrightShelf/releases/download/v1.8.1/BrightShelf.zip" target="_self"><img width="200" src="https://www.adviksoft.com/blog/wp-content/uploads/2023/09/editor_download_mac.png" /></a>
+<a href="https://github.com/FinCreeper1/BrightShelf/releases/latest/" target="_self"><img width="200" src="https://www.adviksoft.com/blog/wp-content/uploads/2023/09/editor_download_mac.png" /></a>
 
 > [!WARNING]
 > Ich habe noch keinen Apple Developer Account. Beim ersten Start der Anwendung erscheint ein Popup-Fenster. Klicken Sie auf **Okay**, gehen Sie dann zu **Einstellungen \/ Datenschutz & Sicherheit** und scrollen Sie nach unten, bis Sie **Open anyway** sehen. Sie müssen dies nur einmal tun.
